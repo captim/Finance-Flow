@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.btn {
+    padding: 20px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 80px;
+}
+
+.btn.green {
+    background: #88B702;
+}
+
+.auth {
+    padding: 20px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 80px;
+}
+
+.auth.active {
+    background: #88B702;
+}
+
+.icon {
+    background: #88B702;
+    border-radius: 20px;
+    padding: 13px;
+    display: block;
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+textarea {
+    color: #000;
+}
+label, label span {
+    color: #fff !important;
+}
